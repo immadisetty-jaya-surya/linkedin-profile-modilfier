@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<style type="text/css">
+  body {
+    min-width: 150px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+
+  * {
+    font-size: 250%;
+  }
+
+  div {
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    max-width: 100px;
+    padding: 1px;
+    font-size: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  button {
+    padding: 2px 4px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+<body style="min-width:250px">
+  <div>
+    <input type="text" id="imageUrlInput" placeholder="enter image url">
+    <button onclick="updateProfileUrl()">Update Url</button>
+  </div>
+  <script src="content.js"></script>
+</body>
+
+</html>
